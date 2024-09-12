@@ -32,3 +32,7 @@ console.log(user)
 function addNumbers(a:number, b:number):number {
     return a + b 
 }
+
+const subtractNumbers = (a: number, b: number): number => {
+    return a - b    
+}
