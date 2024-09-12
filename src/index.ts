@@ -27,3 +27,8 @@ star.jersey = 17
 console.log(star.jersey)
 
 console.log(user)
+
+
+function addNumbers(a:number, b:number):number {
+    return a + b 
+}

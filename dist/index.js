@@ -20,3 +20,6 @@ let star = {
 star.jersey = 17;
 console.log(star.jersey);
 console.log(user);
+function addNumbers(a, b) {
+    return a + b;
+}
