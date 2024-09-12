@@ -16,6 +16,14 @@ let user: { firstName: string, age: number, id: number } = {
     age: 23,
     id:457    
 }
+user.id=284
 
+let star = {
+    fName: 'Roro',
+    jersey:7
+}
+
+star.jersey = 17
+console.log(star.jersey)
 
 console.log(user)
