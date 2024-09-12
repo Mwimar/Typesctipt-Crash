@@ -45,9 +45,17 @@ function addAllNumbers(items: number[]):void {
     console.log(total);
 }
 
-addAllNumbers([4, 7, 2, 5, 7, 1, 34])
+// addAllNumbers([4, 7, 2, 5, 7, 1, 34])
 
 function formatGreeting(name: string, greeting: string) {
     return `${greeting}, ${name}`
 }
+
+const result = formatGreeting('Mwima', 'Wozzah');
+console.log(result)
+
+let height: any
+height = 45;
+height = false
+console.log(height)
 

@@ -32,7 +32,13 @@ function addAllNumbers(items) {
     const total = items.reduce((a, c) => a + c, 0);
     console.log(total);
 }
-addAllNumbers([4, 7, 2, 5, 7, 1, 34]);
+// addAllNumbers([4, 7, 2, 5, 7, 1, 34])
 function formatGreeting(name, greeting) {
     return `${greeting}, ${name}`;
 }
+const result = formatGreeting('Mwima', 'Wozzah');
+console.log(result);
+let height;
+height = 45;
+height = false;
+console.log(height);
