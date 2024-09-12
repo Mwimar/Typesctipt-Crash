@@ -26,5 +26,9 @@ function addNumbers(a, b) {
 const subtractNumbers = (a, b) => {
     return a - b;
 };
-console.log(addNumbers(7, 8));
-console.log(subtractNumbers(25, 11));
+// console.log(addNumbers(7, 8));
+// console.log(subtractNumbers(25, 11));
+function addAllNumbers(items) {
+    const total = items.reduce((a, c) => a + c, 0);
+    console.log(total);
+}

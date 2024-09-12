@@ -37,5 +37,10 @@ const subtractNumbers = (a: number, b: number): number => {
     return a - b    
 }
 
-console.log(addNumbers(7, 8));
-console.log(subtractNumbers(25, 11));
+// console.log(addNumbers(7, 8));
+// console.log(subtractNumbers(25, 11));
+
+function addAllNumbers(items: number[]):void {
+    const total = items.reduce((a, c) => a + c, 0);
+    console.log(total);
+}
