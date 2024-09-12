@@ -24,9 +24,9 @@ let star = {
 }
 
 star.jersey = 17
-console.log(star.jersey)
+// console.log(star.jersey)
 
-console.log(user)
+// console.log(user)
 
 
 function addNumbers(a:number, b:number):number {
@@ -36,3 +36,6 @@ function addNumbers(a:number, b:number):number {
 const subtractNumbers = (a: number, b: number): number => {
     return a - b    
 }
+
+console.log(addNumbers(7, 8));
+console.log(subtractNumbers(25, 11));

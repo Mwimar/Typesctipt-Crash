@@ -18,11 +18,13 @@ let star = {
     jersey: 7
 };
 star.jersey = 17;
-console.log(star.jersey);
-console.log(user);
+// console.log(star.jersey)
+// console.log(user)
 function addNumbers(a, b) {
     return a + b;
 }
 const subtractNumbers = (a, b) => {
     return a - b;
 };
+console.log(addNumbers(7, 8));
+console.log(subtractNumbers(25, 11));
