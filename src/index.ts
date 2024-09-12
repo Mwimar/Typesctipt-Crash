@@ -59,3 +59,7 @@ height = 45;
 height = false
 console.log(height)
 
+let car;
+
+let fruits: any[] = ['mango', 'banana', 'kiwi', 'apple']
+

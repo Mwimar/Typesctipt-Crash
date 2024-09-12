@@ -42,3 +42,5 @@ let height;
 height = 45;
 height = false;
 console.log(height);
+let car;
+let fruits = ['mango', 'banana', 'kiwi', 'apple'];
