@@ -55,3 +55,7 @@ const resultTwo = addTogether(15);
 console.log(resultTwo);
 //tuple
 let many = ['hi', false, 45];
+console.log(many);
+let details;
+details = ['mark', 77];
+console.log(details);
