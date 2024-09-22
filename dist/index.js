@@ -37,10 +37,19 @@ function formatGreeting(name, greeting) {
     return `${greeting}, ${name}`;
 }
 const result = formatGreeting('Mwima', 'Wozzah');
-console.log(result);
+// console.log(result)
 let height;
 height = 45;
 height = false;
-console.log(height);
+// console.log(height)
 let car;
 let fruits = ['mango', 'banana', 'kiwi', 'apple'];
+fruits.push(false, 13);
+// console.log(fruits)
+function addTogether(value) {
+    return value + value;
+}
+const resultOne = addTogether('hey');
+console.log(resultOne);
+const resultTwo = addTogether(15);
+console.log(resultTwo);

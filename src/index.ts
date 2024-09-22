@@ -52,14 +52,27 @@ function formatGreeting(name: string, greeting: string) {
 }
 
 const result = formatGreeting('Mwima', 'Wozzah');
-console.log(result)
+// console.log(result)
 
 let height: any
 height = 45;
 height = false
-console.log(height)
+// console.log(height)
 
 let car;
 
 let fruits: any[] = ['mango', 'banana', 'kiwi', 'apple']
+fruits.push(false, 13)
+// console.log(fruits)
 
+function addTogether(value: any): any{
+    return value + value
+}
+
+const resultOne = addTogether('hey');
+console.log(resultOne)
+const resultTwo = addTogether(15);
+console.log(resultTwo);
+
+//tuple
+let many: [string, boolean, number] = ['hi', false, 45]
