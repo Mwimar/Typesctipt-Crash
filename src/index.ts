@@ -76,3 +76,4 @@ console.log(resultTwo);
 
 //tuple
 let many: [string, boolean, number] = ['hi', false, 45]
+console.log(many)

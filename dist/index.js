@@ -53,3 +53,5 @@ const resultOne = addTogether('hey');
 console.log(resultOne);
 const resultTwo = addTogether(15);
 console.log(resultTwo);
+//tuple
+let many = ['hi', false, 45];
