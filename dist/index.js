@@ -50,7 +50,7 @@ function addTogether(value) {
     return value + value;
 }
 const resultOne = addTogether('hey');
-console.log(resultOne);
+// console.log(resultOne)
 const resultTwo = addTogether(15);
 // console.log(resultTwo);
 //tuple
@@ -68,7 +68,7 @@ const newPost = {
 };
 // console.log(newPost);
 function createPost(post) {
-    console.log(`Created post ${post.title}`);
+    // console.log(`Created post ${post.title}`)
 }
 function getRandomColor() {
     const r = Math.floor(Math.random() * 255);
@@ -78,4 +78,3 @@ function getRandomColor() {
 }
 const color1 = getRandomColor();
 const color2 = getRandomColor();
-console.log(color2, color1);

@@ -70,7 +70,7 @@ function addTogether(value: any): any{
 }
 
 const resultOne = addTogether('hey');
-console.log(resultOne)
+// console.log(resultOne)
 const resultTwo = addTogether(15);
 // console.log(resultTwo);
 
@@ -107,7 +107,7 @@ const newPost: Post = {
 // console.log(newPost);
 
 function createPost(post: Post): void{
-    console.log(`Created post ${post.title}`)
+    // console.log(`Created post ${post.title}`)
 }
 
 // createPost(newPost);
@@ -125,4 +125,10 @@ function getRandomColor(): Rgb{
 const color1 = getRandomColor();
 const color2 = getRandomColor();
 
-console.log(color2, color1)
+// console.log(color2, color1)
+
+type User = {
+    name: string,
+    score: number
+}
+
