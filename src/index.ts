@@ -104,3 +104,8 @@ const newPost: Post = {
     created_at: new Date(),
     author:kevin
 }
+// console.log(newPost);
+
+function createPost(post: Post): void{
+    console.log(`Created post ${post.title}`)
+}
