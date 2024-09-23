@@ -52,10 +52,10 @@ function addTogether(value) {
 const resultOne = addTogether('hey');
 console.log(resultOne);
 const resultTwo = addTogether(15);
-console.log(resultTwo);
+// console.log(resultTwo);
 //tuple
 let many = ['hi', false, 45];
-console.log(many);
+// console.log(many)
 let details;
 details = ['mark', 77];
-console.log(details);
+const kevin = { name: 'Kevin', avatar: './Desktop/gwag.jpg' };

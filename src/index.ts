@@ -86,3 +86,5 @@ interface Author{
     name: string,
     avatar: string
 }
+
+const kevin: Author = { name: 'Kevin', avatar: './Desktop/gwag.jpg' }
