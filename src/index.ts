@@ -72,12 +72,17 @@ function addTogether(value: any): any{
 const resultOne = addTogether('hey');
 console.log(resultOne)
 const resultTwo = addTogether(15);
-console.log(resultTwo);
+// console.log(resultTwo);
 
 //tuple
 let many: [string, boolean, number] = ['hi', false, 45]
-console.log(many)
+// console.log(many)
  
 let details: [name: string, marks: number];
 details = ['mark', 77]
-console.log(details)
+// console.log(details)
+
+interface Author{
+    name: string,
+    avatar: string
+}
