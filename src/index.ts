@@ -148,7 +148,18 @@ email='pres@seniordev.code'
 
 type Id = number | string
 
-function swapId(id: Id): Id{
+function swapId(id: Id) {
+    if (typeof id === 'string') {
+        return parseInt(id)
+    } else {
+        return id.toString();
+        
+    }
+} 
     
-    return id;
-}
+    const num1 = swapId(1);
+    console.log(num1);
+
+    const num2 = swapId('3');
+    console.log(num2)
+    

@@ -89,5 +89,14 @@ someId = 34;
 let email = null;
 email = 'pres@seniordev.code';
 function swapId(id) {
-    return id;
+    if (typeof id === 'string') {
+        return parseInt(id);
+    }
+    else {
+        return id.toString();
+    }
 }
+const num1 = swapId(1);
+console.log(num1);
+const num2 = swapId('3');
+console.log(num2);
