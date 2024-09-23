@@ -76,3 +76,6 @@ function getRandomColor() {
     const b = Math.floor(Math.random() * 255);
     return [r, g, b];
 }
+const color1 = getRandomColor();
+const color2 = getRandomColor();
+console.log(color2, color1);

@@ -121,3 +121,8 @@ function getRandomColor(): Rgb{
     
     return [r,g,b]
 }
+
+const color1 = getRandomColor();
+const color2 = getRandomColor();
+
+console.log(color2, color1)
