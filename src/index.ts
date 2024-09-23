@@ -137,5 +137,9 @@ function formatUser(user:User): void{
     console.log(`${user.name} has a score of ${user.score}`)
 }
 
-formatUser(userOne)
+// formatUser(userOne)
+
+let someId: number | string
+someId = 'Hello'
+someId = 34
 

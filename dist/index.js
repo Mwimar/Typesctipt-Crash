@@ -82,4 +82,7 @@ const userOne = { name: 'Kodak', score: 18 };
 function formatUser(user) {
     console.log(`${user.name} has a score of ${user.score}`);
 }
-formatUser(userOne);
+// formatUser(userOne)
+let someId;
+someId = 'Hello';
+someId = 34;
