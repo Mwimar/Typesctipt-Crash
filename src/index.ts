@@ -127,15 +127,15 @@ const color2 = getRandomColor();
 
 // console.log(color2, color1)
 
-type User = {
-    name: string,
-    score: number
-}
-const userOne: User = { name: 'Kodak', score: 18 }
+// type User = {
+//     name: string,
+//     score: number
+// }
+// const userOne: User = { name: 'Kodak', score: 18 }
 
-function formatUser(user:User): void{
-    console.log(`${user.name} has a score of ${user.score}`)
-}
+// function formatUser(user:User): void{
+//     console.log(`${user.name} has a score of ${user.score}`)
+// }
 
 // formatUser(userOne)
 
@@ -158,8 +158,23 @@ function swapId(id: Id) {
 } 
     
     const num1 = swapId(1);
-    console.log(num1);
+    // console.log(num1);
 
     const num2 = swapId('3');
-    console.log(num2)
+    // console.log(num2)
     
+interface User{
+    username: string,
+    email: string,
+    id:Id
+    }
+
+interface Person{
+    firstname: string,
+    age: number,
+    id:Id
+}
+    
+function logDetails(value: User | Person): void {
+    
+}

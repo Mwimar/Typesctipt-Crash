@@ -78,10 +78,15 @@ function getRandomColor() {
 }
 const color1 = getRandomColor();
 const color2 = getRandomColor();
-const userOne = { name: 'Kodak', score: 18 };
-function formatUser(user) {
-    console.log(`${user.name} has a score of ${user.score}`);
-}
+// console.log(color2, color1)
+// type User = {
+//     name: string,
+//     score: number
+// }
+// const userOne: User = { name: 'Kodak', score: 18 }
+// function formatUser(user:User): void{
+//     console.log(`${user.name} has a score of ${user.score}`)
+// }
 // formatUser(userOne)
 let someId;
 someId = 'Hello';
@@ -97,6 +102,7 @@ function swapId(id) {
     }
 }
 const num1 = swapId(1);
-console.log(num1);
+// console.log(num1);
 const num2 = swapId('3');
-console.log(num2);
+function logDetails(value) {
+}
