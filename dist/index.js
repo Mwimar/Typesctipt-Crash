@@ -78,3 +78,8 @@ function getRandomColor() {
 }
 const color1 = getRandomColor();
 const color2 = getRandomColor();
+const userOne = { name: 'Kodak', score: 18 };
+function formatUser(user) {
+    console.log(`${user.name} has a score of ${user.score}`);
+}
+formatUser(userOne);

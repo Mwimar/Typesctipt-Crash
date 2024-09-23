@@ -131,4 +131,11 @@ type User = {
     name: string,
     score: number
 }
+const userOne: User = { name: 'Kodak', score: 18 }
+
+function formatUser(user:User): void{
+    console.log(`${user.name} has a score of ${user.score}`)
+}
+
+formatUser(userOne)
 
