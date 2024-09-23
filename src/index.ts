@@ -88,3 +88,11 @@ interface Author{
 }
 
 const kevin: Author = { name: 'Kevin', avatar: './Desktop/gwag.jpg' }
+
+interface Post{
+    title: string,
+    body: string,
+    tags: string[],
+    created_at: Date,
+    author:Author
+}
