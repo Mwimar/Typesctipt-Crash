@@ -70,3 +70,4 @@ const newPost = {
 function createPost(post) {
     console.log(`Created post ${post.title}`);
 }
+createPost(newPost);

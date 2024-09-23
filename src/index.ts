@@ -109,3 +109,5 @@ const newPost: Post = {
 function createPost(post: Post): void{
     console.log(`Created post ${post.title}`)
 }
+
+createPost(newPost);
