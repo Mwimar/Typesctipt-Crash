@@ -59,3 +59,10 @@ let many = ['hi', false, 45];
 let details;
 details = ['mark', 77];
 const kevin = { name: 'Kevin', avatar: './Desktop/gwag.jpg' };
+const newPost = {
+    title: 'Neil Degrasse',
+    body: 'More Science',
+    tags: ['stars', 'galaxy', 'moon'],
+    created_at: new Date(),
+    author: kevin
+};

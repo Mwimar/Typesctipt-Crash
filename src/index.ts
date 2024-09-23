@@ -96,3 +96,11 @@ interface Post{
     created_at: Date,
     author:Author
 }
+
+const newPost: Post = {
+    title: 'Neil Degrasse',
+    body: 'More Science',
+    tags: ['stars', 'galaxy', 'moon'],
+    created_at: new Date(),
+    author:kevin
+}
