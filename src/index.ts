@@ -143,3 +143,6 @@ let someId: number | string
 someId = 'Hello'
 someId = 34
 
+let email: string | null = null;
+email='pres@seniordev.code'
+

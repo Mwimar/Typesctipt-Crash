@@ -86,3 +86,5 @@ function formatUser(user) {
 let someId;
 someId = 'Hello';
 someId = 34;
+let email = null;
+email = 'pres@seniordev.code';
