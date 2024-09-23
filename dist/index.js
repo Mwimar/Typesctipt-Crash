@@ -88,3 +88,6 @@ someId = 'Hello';
 someId = 34;
 let email = null;
 email = 'pres@seniordev.code';
+function swapId(id) {
+    return id;
+}

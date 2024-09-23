@@ -146,3 +146,9 @@ someId = 34
 let email: string | null = null;
 email='pres@seniordev.code'
 
+type Id = number | string
+
+function swapId(id: Id): Id{
+    
+    return id;
+}
