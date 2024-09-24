@@ -164,17 +164,26 @@ function swapId(id: Id) {
     // console.log(num2)
     
 interface User{
+    type:'user',
     username: string,
     email: string,
     id:Id
     }
 
 interface Person{
+    type:'person',
     firstname: string,
     age: number,
     id:Id
 }
     
 function logDetails(value: User | Person): void {
+    if (value.type === 'user') {
+        console.log(value.username, value.email)
+    } 
+    if (value.type === 'person') {
+        console.log(value.firstname, value.age)
+    }
+        
+    }
     
-}

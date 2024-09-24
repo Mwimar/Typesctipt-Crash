@@ -105,4 +105,10 @@ const num1 = swapId(1);
 // console.log(num1);
 const num2 = swapId('3');
 function logDetails(value) {
+    if (value.type === 'user') {
+        console.log(value.username, value.email);
+    }
+    if (value.type === 'person') {
+        console.log(person.);
+    }
 }
